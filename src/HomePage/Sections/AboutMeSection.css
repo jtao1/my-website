@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    font-weight: 400;
+        font-family: 'Montserrat';
+
+}
+
+.about_me {
+    background-color: #32393F;
+    height: 187.5px;
+    color: #E9E9DF;
+    display: grid;
+    grid-template-areas: "title content"
+                         "title content";
+    grid-template-columns: 800px auto 800px;
+    
+}
+
+.about_me .section_title {
+    font-weight: 600;
+    font-size: 18px;
+    font-style: italic;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-area: title;
+}
+
+.about_me .contents {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    grid-area: content;
+    width: auto;
+}
+
+.about_me .name {
+    font-size: 32px;
+    text-decoration-line: underline;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.about_me .description {
+    font-size: 20px;
+    max-width: 750px;
+}

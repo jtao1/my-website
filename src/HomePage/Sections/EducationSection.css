@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    font-weight: 400;
+        font-family: 'Montserrat';
+
+}
+
+.education_section {
+    background-color: #32393F;
+    height: 150px;
+    color: #E9E9DF;
+    display: grid;
+    grid-template-areas: "title content time";
+    grid-template-columns: 800px auto 800px;
+}
+
+.education_section .section_title {
+    font-weight: 600;
+    font-size: 18px;
+    font-style: italic;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-area: title;
+}
+
+.education_section .contents {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 38px;
+    width: auto;
+}
+
+.education_section .university {
+    font-size: 24px;
+}
+
+.education_section .degree {
+    font-size: 18px;
+    display: flex;
+}
+
+.education_section li{
+    font-size: 16px;
+}
+
+
+.education_section .time {
+    grid-area: time;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

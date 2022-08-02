@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    font-weight: 400;
+    font-family: 'Montserrat';
+
+}
+
+.work_experience_section {
+    background-color: #434C53;
+    height: 250px;
+    color: #E9E9DF;
+    display: grid;
+    grid-template-areas: "title content time";
+    grid-template-columns: 800px auto 800px;
+}
+
+.work_experience_section .section_title {
+    font-weight: 600;
+    font-size: 18px;
+    font-style: italic;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-area: title;
+}
+
+.work_experience_section .contents {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 43px;
+    width: auto;
+}
+
+.work_experience_section .employer {
+    font-size: 24px;
+}
+
+.work_experience_section .job_title {
+    font-size: 20px;
+    display: flex;
+}
+
+.work_experience_section .info li{
+    font-size: 18px;
+}
+
+
+.work_experience_section .time {
+    grid-area: time;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
