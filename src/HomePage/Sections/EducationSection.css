@@ -11,12 +11,12 @@
     color: #E9E9DF;
     display: grid;
     grid-template-areas: "title content time";
-    grid-template-columns: 800px auto 800px;
+    grid-template-columns: 750px auto 750px;
 }
 
 .education_section .section_title {
     font-weight: 600;
-    font-size: 18px;
+    font-size: 14px;
     font-style: italic;
     display: flex;
     align-items: center;
@@ -33,22 +33,22 @@
 }
 
 .education_section .university {
-    font-size: 24px;
+    font-size: 18px;
 }
 
 .education_section .degree {
-    font-size: 18px;
+    font-size: 14px;
     display: flex;
 }
 
 .education_section li{
-    font-size: 16px;
+    font-size: 12px;
 }
 
 
 .education_section .time {
     grid-area: time;
-    font-size: 18px;
+    font-size: 14px;
     display: flex;
     align-items: center;
     justify-content: center;

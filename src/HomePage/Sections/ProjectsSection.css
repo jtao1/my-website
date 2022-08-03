@@ -12,12 +12,12 @@
     display: grid;
     grid-template-areas: "title name"
                          "title description";
-    grid-template-columns: 800px auto 800px;
+    grid-template-columns: 750px auto 750px;
 }
 
 .projects_section .section_title {
     font-weight: 600;
-    font-size: 18px;
+    font-size: 14px;
     font-style: italic;
     display: flex;
     align-items: center;
@@ -34,12 +34,12 @@
 
 .projects_section .project_title {
     grid-area: name;
-    font-size: 24px;
+    font-size: 20px;
     margin-top: 30px;
 }
 
 .projects_section li{
     grid-area: description;
-    font-size: 20px;
+    font-size: 18px;
     max-width: 750px;
 }

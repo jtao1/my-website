@@ -12,13 +12,13 @@
     display: grid;
     grid-template-areas: "title content"
                          "title content";
-    grid-template-columns: 800px auto 800px;
+    grid-template-columns: 750px auto 750px;
     
 }
 
 .about_me .section_title {
     font-weight: 600;
-    font-size: 18px;
+    font-size: 14px;
     font-style: italic;
     display: flex;
     align-items: center;
@@ -36,13 +36,13 @@
 }
 
 .about_me .name {
-    font-size: 32px;
+    font-size: 23px;
     text-decoration-line: underline;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
 .about_me .description {
-    font-size: 20px;
+    font-size: 15px;
     max-width: 750px;
 }

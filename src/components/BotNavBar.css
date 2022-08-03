@@ -1,7 +1,7 @@
 * {
     margin: 0px;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 12px;
 }
 
 .bot_nav_bar {
@@ -43,12 +43,12 @@
 }
 
 .bot_nav_bar .download_text {
-    font-size: 18px;
+    font-size: 14px;
     color: #CCD5CB;
 }
 
 .bot_nav_bar .update_text {
-    font-size: 12px;
+    font-size: 9px;
     color: #8C8C8C;
 }
 

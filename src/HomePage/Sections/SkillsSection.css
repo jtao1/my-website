@@ -11,12 +11,12 @@
     display: grid;
     grid-template-areas: "title content"
                          "title content";
-    grid-template-columns: 800px auto 800px;
+    grid-template-columns: 750px auto 750px;
 }
 
 .skills_section .section_title {
     font-weight: 600;
-    font-size: 18px;
+    font-size: 14px;
     font-style: italic;
     display: flex;
     align-items: center;
@@ -34,10 +34,10 @@
 }
 
 .skills_section .examples {
-    font-size: 20px;
+    font-size: 15px;
     white-space: pre;
 }
 
 .skills_section .descriptor {
-    font-size: 24px;
+    font-size: 18px;
 }

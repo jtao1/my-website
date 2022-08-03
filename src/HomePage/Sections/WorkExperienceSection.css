@@ -11,12 +11,12 @@
     color: #E9E9DF;
     display: grid;
     grid-template-areas: "title content time";
-    grid-template-columns: 800px auto 800px;
+    grid-template-columns: 750px auto 750px;
 }
 
 .work_experience_section .section_title {
     font-weight: 600;
-    font-size: 18px;
+    font-size: 14px;
     font-style: italic;
     display: flex;
     align-items: center;
@@ -33,22 +33,22 @@
 }
 
 .work_experience_section .employer {
-    font-size: 24px;
+    font-size: 20px;
 }
 
 .work_experience_section .job_title {
-    font-size: 20px;
+    font-size: 15px;
     display: flex;
 }
 
 .work_experience_section .info li{
-    font-size: 18px;
+    font-size: 14px;
 }
 
 
 .work_experience_section .time {
     grid-area: time;
-    font-size: 18px;
+    font-size: 15px;
     display: flex;
     align-items: center;
     justify-content: center;
