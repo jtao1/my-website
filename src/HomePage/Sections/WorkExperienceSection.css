@@ -16,7 +16,7 @@
 
 .work_experience_section .section_title {
     font-weight: 600;
-    font-size: 14px;
+    font-size: 16px;
     font-style: italic;
     display: flex;
     align-items: center;
@@ -43,6 +43,7 @@
 
 .work_experience_section .info li{
     font-size: 14px;
+    line-height: 1.5;
 }
 
 

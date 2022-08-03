@@ -7,7 +7,7 @@
 
 .education_section {
     background-color: #32393F;
-    height: 150px;
+    height: 120px;
     color: #E9E9DF;
     display: grid;
     grid-template-areas: "title content time";
@@ -16,7 +16,7 @@
 
 .education_section .section_title {
     font-weight: 600;
-    font-size: 14px;
+    font-size: 16px;
     font-style: italic;
     display: flex;
     align-items: center;

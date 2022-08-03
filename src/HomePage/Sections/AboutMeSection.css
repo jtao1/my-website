@@ -7,7 +7,7 @@
 
 .about_me {
     background-color: #32393F;
-    height: 187.5px;
+    height: 160px;
     color: #E9E9DF;
     display: grid;
     grid-template-areas: "title content"
@@ -18,7 +18,7 @@
 
 .about_me .section_title {
     font-weight: 600;
-    font-size: 14px;
+    font-size: 16px;
     font-style: italic;
     display: flex;
     align-items: center;
