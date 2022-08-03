@@ -8,10 +8,10 @@ export default function ProjectsSection() {
             <div className="contents">
                 <h1 className="project_title">Personal Website</h1>
                 <ul>
-                    <li>Built with React, designed on Figma, utilized React Router</li>
+                    <li>Built with React, designed on Figma, utilized React Router, deployed on Heroku</li>
                 </ul>
                 <h1 className="project_title">Quiz Learning System</h1>
-                <ul>
+                <ul className="project_info">
                     <li>Utilized Java: file i/o, sockets, swing</li>
                     <li>Worked with others to divide the project equally and set biweekly goals</li>
                 </ul>    
