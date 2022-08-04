@@ -13,14 +13,24 @@
 
 .top_nav_bar .home {
     margin-left: 110px;
+    text-decoration: none;
+}
+
+.top_nav_bar .home p{
     font-size: 15px;
     font-weight: 400;
+    color: #CCD5CB;
 }
 
 .top_nav_bar .photography {
     margin-left: auto;
+    text-decoration: none;
+}
+
+.top_nav_bar .photography p{
     font-size: 15px;
     font-weight: 400;
+    color: #CCD5CB;
 }
 
 .top_nav_bar .blog {
@@ -28,4 +38,5 @@
     margin-left: 20px;
     font-size: 15px;    
     font-weight: 400;
+    color: #CCD5CB;
 }

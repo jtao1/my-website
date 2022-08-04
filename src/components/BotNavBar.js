@@ -5,11 +5,11 @@ export default function BotNavBar() {
 
     function openLink(site) {
         if (site === 'linkedin') {
-            window.open('https://www.linkedin.com/in/junshen-tao/')
+            window.open('https://www.linkedin.com/in/junshen-tao/');
         } else if (site === 'twitter') {
-            window.open('https://twitter.com/JunshenTao')
+            window.open('https://twitter.com/JunshenTao');
         } else if (site === 'github') {
-            window.open('https://github.com/jtao1')
+            window.open('https://github.com/jtao1');
         }
     }
 
