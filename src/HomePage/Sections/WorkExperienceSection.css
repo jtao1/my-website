@@ -11,7 +11,7 @@
     color: #E9E9DF;
     display: grid;
     grid-template-areas: "title content time";
-    grid-template-columns: 750px auto 750px;
+    grid-template-columns: 35% auto 35%;
 }
 
 .work_experience_section .section_title {

@@ -9,9 +9,9 @@
     height: 100px;
     color: #E9E9DF;
     display: grid;
-    grid-template-areas: "title content"
-                         "title content";
-    grid-template-columns: 750px auto 750px;
+    grid-template-areas: 'title content'
+                         'title content';
+    grid-template-columns: 35% auto 35%;
 }
 
 .skills_section .section_title {

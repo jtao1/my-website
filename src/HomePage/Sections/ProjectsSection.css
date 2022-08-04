@@ -10,9 +10,9 @@
     height: 240px;
     color: #E9E9DF;
     display: grid;
-    grid-template-areas: "title name"
-                         "title description";
-    grid-template-columns: 750px auto 750px;
+    grid-template-areas: 'title name'
+                         'title description';
+    grid-template-columns: 35% auto 35%;
 }
 
 .projects_section .section_title {
