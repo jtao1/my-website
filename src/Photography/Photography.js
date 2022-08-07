@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import IMG_2021_05_29 from './Photos/IMG_2021_05_29.png';
-import IMG_2021_09_02 from './Photos/IMG_2021_09_02.png';
-import IMG_2021_10_12 from './Photos/IMG_2021_10_12.png';
+import IMG_2021_05_29 from './Photos/IMG_2021_05_29.jpg';
+import IMG_2021_09_02 from './Photos/IMG_2021_09_02.jpg';
+import IMG_2021_10_12 from './Photos/IMG_2021_10_12.jpg';
 import IMG_2021_11_08 from './Photos/IMG_2021_11_08.jpg';
 import IMG_2022_05_22 from './Photos/IMG_2022_05_22.jpg';
-import IMG_2022_07_23 from './Photos/IMG_2022_07_23.png';
+import IMG_2022_07_23 from './Photos/IMG_2022_07_23.jpg';
 
 import "./Photography.css"
 export default function Gallery() {
@@ -16,12 +16,12 @@ export default function Gallery() {
     }
 
     const photos = [
-        <img className='photo' style={styles} src={IMG_2021_05_29} alt='IMG_2021_05_29.png'/>,
-        <img className='photo' style={styles} src={IMG_2021_09_02} alt='IMG_2021_09_02.png'/>,
-        <img className='photo' style={styles} src={IMG_2021_10_12} alt='IMG_2021_10_12.png'/>,
+        <img className='photo' style={styles} src={IMG_2021_05_29} alt='IMG_2021_05_29.jpg'/>,
+        <img className='photo' style={styles} src={IMG_2021_09_02} alt='IMG_2021_09_02.jpg'/>,
+        <img className='photo' style={styles} src={IMG_2021_10_12} alt='IMG_2021_10_12.jpg'/>,
         <img className='photo' style={styles} src={IMG_2021_11_08} alt='IMG_2021_11_08.jpg'/>,
         <img className='photo' style={styles} src={IMG_2022_05_22} alt='IMG_2022_05_22.jpg'/>,
-        <img className='photo' style={styles} src={IMG_2022_07_23} alt='IMG_2022_07_23.png'/>
+        <img className='photo' style={styles} src={IMG_2022_07_23} alt='IMG_2022_07_23.jpg'/>
     ]
 
     function handleImageChange(buttonDirection) {
