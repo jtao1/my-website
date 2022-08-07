@@ -16,7 +16,7 @@
     
 }
 
-.about_me .section_title {
+.about_me_title {
     font-weight: 600;
     font-size: 16px;
     font-style: italic;
@@ -26,7 +26,7 @@
     grid-area: title;
 }
 
-.about_me .contents {
+.about_me_contents {
     display: flex;
     flex-direction: column;
     justify-items: center;
@@ -35,14 +35,14 @@
     width: auto;
 }
 
-.about_me .name {
+.about_me_name {
     font-size: 23px;
     text-decoration-line: underline;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
-.about_me .description {
+.about_me_description {
     font-size: 15px;
     max-width: 750px;
 }

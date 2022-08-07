@@ -1,11 +1,11 @@
 * {
     margin: 0;
     font-weight: 400;
-        font-family: 'Montserrat';
+    font-family: 'Montserrat';
 
 }
 
-.projects_section {
+.projects {
     background-color: #32393F;
     height: 240px;
     color: #E9E9DF;
@@ -15,7 +15,7 @@
     grid-template-columns: 35% auto 35%;
 }
 
-.projects_section .section_title {
+.projects_title {
     font-weight: 600;
     font-size: 16px;
     font-style: italic;
@@ -25,20 +25,20 @@
     grid-area: title;
 }
 
-.projects_section .contents {
+.projects_contents {
     display: flex;
     flex-direction: column;
     justify-items: center;
     align-items: center;
 }
 
-.projects_section .project_title {
+.projects_project_title {
     grid-area: name;
     font-size: 20px;
     margin-top: 30px;
 }
 
-.projects_section li{
+.projects li{
     grid-area: description;
     font-size: 18px;
     max-width: 750px;

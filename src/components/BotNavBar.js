@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import './BotNavBar.css';
 
 export default function BotNavBar() {
@@ -16,20 +16,20 @@ export default function BotNavBar() {
 
     return (
         <nav className='bot_nav_bar'>
-            <div className='left_nav'>
+            <div className='bot_nav_bar_left_nav'>
                 <a href='./Resume.pdf' download>
-                    <button type='button' className='resume_download'>
-                        <h1 className='download_text'>Download Resume</h1>
-                        <h1 className='update_text'>updated August 2022</h1>
+                    <button type='button' className='bot_nav_bar_resume_download'>
+                        <h1 className='bot_nav_bar_download_text'>Download Resume</h1>
+                        <h1 className='bot_nav_bar_update_text'>updated August 2022</h1>
                     </button>
                 </a>
-                <h1 className='email'>junshentao1@gmail.com</h1>
-                <h1 className='phone'>(312)-731-9187</h1>
+                <h1 className='bot_nav_bar_email'>junshentao1@gmail.com</h1>
+                <h1 className='bot_nav_bar_phone'>(312)-731-9187</h1>
             </div>
-            <div className='right_nav'>
-                <button type='button' className='linkedin' onClick={() => openLink('linkedin')}>Linkedin.</button>
-                <button type='button' className='twitter' onClick={() => openLink('twitter')}>Twitter.</button>
-                <button type='button' className='github' onClick={() => openLink('github')}>Github.</button>
+            <div className='bot_nav_bar_right_nav'>
+                <button type='button' className='bot_nav_bar_linkedin' onClick={() => openLink('linkedin')}>Linkedin.</button>
+                <button type='button' className='bot_nav_bar_twitter' onClick={() => openLink('twitter')}>Twitter.</button>
+                <button type='button' className='bot_nav_bar_github' onClick={() => openLink('github')}>Github.</button>
             </div>
         </nav>
     );

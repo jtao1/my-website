@@ -4,7 +4,7 @@
     font-family: 'Montserrat';
 }
 
-.skills_section {
+.skills {
     background-color: #434C53;
     height: 100px;
     color: #E9E9DF;
@@ -14,7 +14,7 @@
     grid-template-columns: 35% auto 35%;
 }
 
-.skills_section .section_title {
+.skills_title {
     font-weight: 600;
     font-size: 16px;
     font-style: italic;
@@ -24,7 +24,7 @@
     grid-area: title;
 }
 
-.skills_section .contents {
+.skills_contents {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -33,11 +33,11 @@
     grid-area: content;
 }
 
-.skills_section .examples {
+.skills_examples {
     font-size: 15px;
     white-space: pre;
 }
 
-.skills_section .descriptor {
+.skills_descriptor {
     font-size: 18px;
 }
