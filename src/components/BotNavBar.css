@@ -36,11 +36,16 @@
     width: 260px;
     height: 60px;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .bot_nav_bar_download_text {
     font-size: 14px;
     color: #CCD5CB;
+}
+
+.bot_nav_bar a {
+    text-decoration: none;
 }
 
 .bot_nav_bar_update_text {

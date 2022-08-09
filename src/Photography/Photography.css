@@ -1,7 +1,3 @@
-* {
-    margin: 0;
-}
-
 .photography_content {
     display: grid;
     grid-template-areas: 'leftCol photo rightCol';
@@ -35,8 +31,6 @@
     background-color: #32393F;
 }
 
-
-
 .photography_left_button {
     border: solid #071117;
     border-width: 0 10px 10px 0;
@@ -44,12 +38,14 @@
     padding: 10px;
     transform: rotate(135deg);
     background-color: #32393F;
+    cursor: pointer;
 }
 
 .photography_left_button_border:hover {
     border-width: thin;
-    border: solid #434C53;
-    padding: 20px 10px 20px 20px;
+    border: solid #E9E9DF;
+    padding: 8px 5px 10px 15px;
+    border-radius: 50px;
 }
 
 .photography_right_button {
@@ -59,10 +55,17 @@
     padding: 10px;
     transform: rotate(-45deg);
     background-color: #32393F;
+    cursor: pointer;
 }
 
 .photography_right_button_border:hover {
     border-width: 1px;
-    border: solid #434C53;
-    padding: 20px 20px 20px 10px;
+    border: solid #E9E9DF;
+    padding: 8px 15px 10px 5px;
+    border-radius: 50px;
+}
+
+.load {
+    background-color: black;
+    transition-duration: 10;
 }

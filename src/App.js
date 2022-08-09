@@ -7,6 +7,11 @@ import BotNavBar from './components/BotNavBar';
 import './App.css';
 
 
+//import McDonalds from './Blog/BlogPosts/McDonalds';
+//import Blog from './Blog/Blog.js'
+
+
+
 export default function App() {
   return (
     <div className='page'>
@@ -15,6 +20,11 @@ export default function App() {
         <Routes>
             <Route path='/' element={<HomePage/>}/>
             <Route path='/photography' element={<Photography/>}/>
+            {/*
+            <Route path='/blog' element={<Blog/>}>
+                <Route path='blog/mcdonalds' element={<McDonalds />}/>
+            </Route>
+            */}
         </Routes>
         <BotNavBar />
       </Router>

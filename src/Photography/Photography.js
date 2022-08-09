@@ -7,7 +7,7 @@ import IMG_2022_05_22 from './Photos/IMG_2022_05_22.jpg';
 import IMG_2022_07_23 from './Photos/IMG_2022_07_23.jpg';
 
 import "./Photography.css"
-export default function Gallery() {
+export default function Photography() {
     
     const [picNum, setPicNum] = useState(0)
     
@@ -32,12 +32,15 @@ export default function Gallery() {
             return prevNum;
         })
     }
-
+    
     return (
         <div className='photography_content'>
             <div className='photography_leftCol'>
                 <div className='photography_left_button_border'>
-                    <button className='photography_left_button' onClick={() => handleImageChange('left')}></button>
+                    <button 
+                        className='photography_left_button' 
+                        onClick={() => handleImageChange('left')} 
+                    />
                 </div>
             </div>            
             <div className='photography_photo_area'>
@@ -45,7 +48,11 @@ export default function Gallery() {
             </div>
             <div className='photography_rightCol'>
                 <div className='photography_right_button_border'>
-                    <button className='photography_right_button' onClick={() => handleImageChange('right')}></button>
+                    <button 
+                        className='photography_right_button' 
+                        onClick={() => handleImageChange('right')} 
+
+                    />
                 </div>
             </div>
         </div>
