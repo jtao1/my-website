@@ -32,7 +32,7 @@ export default function Photography() {
             return prevNum;
         })
     }
-    
+
     return (
         <div className='photography_content'>
             <div className='photography_leftCol'>
@@ -51,7 +51,6 @@ export default function Photography() {
                     <button 
                         className='photography_right_button' 
                         onClick={() => handleImageChange('right')} 
-
                     />
                 </div>
             </div>
