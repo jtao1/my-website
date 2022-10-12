@@ -1,6 +1,6 @@
 .projects {
     background-color: #32393F;
-    height: 240px;
+    height: 340px;
     color: #E9E9DF;
     display: grid;
     grid-template-areas: 'title name'
@@ -27,12 +27,16 @@
 
 .projects_project_title {
     grid-area: name;
-    font-size: 20px;
+    font-size: 18px;
     margin-top: 30px;
 }
 
 .projects li{
     grid-area: description;
-    font-size: 18px;
+    font-size: 16px;
     max-width: 750px;
+}
+
+.projects_links {
+    color: #E9E9DF;
 }
