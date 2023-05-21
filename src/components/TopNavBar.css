@@ -3,21 +3,67 @@
     color: #CCD5CB;
     display: flex;
     align-items: center;
-    height: 50px;
+    height: 75px;
     font-size: 11px;
     font-weight: 400;
 }
 
+.top_nav_bar_left_nav {
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;    
+    align-items: center;
+    justify-items: center;
+}
+
+.top_nav_bar_right_nav {
+    margin-left: auto;    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+}
+
+.top_nav_bar_center {
+    margin: auto;
+    display: flex;
+    flex-direction: row;    
+    align-items: center;
+    justify-items: center;
+}
+
+.top_nav_bar_signature {
+    image-rendering: crisp-edges;
+    width: 150px;
+    height: 60px;
+}
 
 .top_nav_bar_home {
-    margin-left: 110px;
+    margin-left: 200px;
     text-decoration: none;
+    padding: 10px;
+    background: #0F1B32;
+    border: 2px solid #343434;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #CCD5CB;
+    cursor: pointer;
 }
 
 .top_nav_bar_photography {
-    margin-right: 110px;
-    margin-left: auto;
+    margin-right: 200px;
     text-decoration: none;
+    padding: 10px;
+    background: #0F1B32;
+    border: 2px solid #343434;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #CCD5CB;
+    cursor: pointer;
 }
 /*
 .top_nav_bar_blog {
