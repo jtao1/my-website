@@ -21,7 +21,7 @@ export default function BotNavBar() {
                 <a href={Resume} download='Junshen_Tao_Resume.pdf'>
                     <div className='bot_nav_bar_resume_download'>
                         <h1 className='bot_nav_bar_download_text'>Download Resume</h1>
-                        <h1 className='bot_nav_bar_update_text'>updated August 2022</h1>
+                        <h1 className='bot_nav_bar_update_text'>updated May 2023</h1>
                     </div>
                 </a>
                 <h1 className='bot_nav_bar_email'>junshentao1@gmail.com</h1>

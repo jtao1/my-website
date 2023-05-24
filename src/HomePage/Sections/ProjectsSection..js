@@ -6,6 +6,12 @@ export default function ProjectsSection() {
         <div className='projects'>
             <h1 className='projects_title'>Projects</h1>
             <div className='projects_contents'>
+            <h1 className='projects_project_title'>Differentiating Sorting Algorithms</h1>
+                <ul className='projects_project_info'>
+                    <li>Distinguished algorithms based on the number of data comparison and movements</li>
+                    <li>Employed diverse datasets to enhance comprehension of algorithmic functions</li>
+                    <li>Saw the efficiency of quicksort variations (fixed/randomized pivot and 2/3 way partition)</li>
+                </ul>
                 <h1 className='projects_project_title'><a className='projects_links' href='https://jtao1-stocks-visualization-stocks-display-roe5sa.streamlitapp.com/'>Stock Visualization</a></h1>
                 <ul className='projects_project_info'>
                     <li>Displayed multiple stock charts with technical indicators simultaneously based on stock input</li>

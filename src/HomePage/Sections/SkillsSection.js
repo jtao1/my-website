@@ -8,11 +8,11 @@ export default function SkillsSection() {
             <div className='skills_contents'>
                 <h1 className='skills_examples'>
                     <span className='skills_descriptor'>Languages: </span> 
-                    Python, R, Java, HTML, CSS, JavaScript
+                    JavaScript (React), HTML, CSS,  Python, Java SQL, R, C
                 </h1>
                 <h1 className='skills_examples'>
                     <span className='skills_descriptor'>Frameworks and libraries: </span>    
-                    Pandas, Numpy, Streamlit, React
+                    Github, VSCode, Adobe Suite, Excel, Jupyter Notebook, GCP, Heroku, Google Analytics
                 </h1>
             </div>
         </div>

@@ -16,12 +16,13 @@
     align-items: center;
     justify-content: center;
     grid-area: title;
+    margin-left: 200px;
 }
 
 .skills_contents {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
     margin-top: 30px;
     margin-bottom: 30px;
     grid-area: content;

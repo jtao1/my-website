@@ -1,6 +1,5 @@
 .projects {
     background-color: #32393F;
-    height: 340px;
     color: #E9E9DF;
     display: grid;
     grid-template-areas: 'title name'
@@ -16,19 +15,21 @@
     align-items: center;
     justify-content: center;
     grid-area: title;
+    margin-left: 200px;
 }
 
 .projects_contents {
     display: flex;
     flex-direction: column;
     justify-items: center;
-    align-items: center;
+    align-items: left;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .projects_project_title {
     grid-area: name;
     font-size: 18px;
-    margin-top: 30px;
 }
 
 .projects li{
