@@ -1,35 +1,11 @@
 .top_nav_bar {
     background-color: #071117;
-    color: #CCD5CB;
     display: flex;
     align-items: center;
-    height: 75px;
+    justify-content: space-around;
+    height: 10vh;
     font-size: 11px;
     font-weight: 400;
-}
-
-.top_nav_bar_left_nav {
-    margin-right: auto;
-    display: flex;
-    flex-direction: row;    
-    align-items: center;
-    justify-items: center;
-}
-
-.top_nav_bar_right_nav {
-    margin-left: auto;    
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-items: center;
-}
-
-.top_nav_bar_center {
-    margin: auto;
-    display: flex;
-    flex-direction: row;    
-    align-items: center;
-    justify-items: center;
 }
 
 .top_nav_bar_signature {
@@ -39,39 +15,17 @@
 }
 
 .top_nav_bar_home {
-    margin-left: 300px;
     text-decoration: none;
     padding: 10px;
     background: #0F1B32;
     border: 2px solid #343434;
-    margin-right: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #CCD5CB;
     cursor: pointer;
 }
 
 .top_nav_bar_photography {
-    margin-right: 300px;
     text-decoration: none;
     padding: 10px;
     background: #0F1B32;
     border: 2px solid #343434;
-    margin-left: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #CCD5CB;
     cursor: pointer;
-}
-/*
-.top_nav_bar_blog {
-    margin-right: 110px;
-    margin-left: 20px;
-    text-decoration: none;
-}*/
-
-.top_nav_bar_text {
-    color: #CCD5CB;
 }

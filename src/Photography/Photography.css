@@ -2,7 +2,8 @@
     display: grid;
     grid-template-areas: 'leftCol photo rightCol';
     grid-template-columns: 25% auto 25%;
-
+    max-height: 80vh;
+    overflow: hidden;
 }
 
 .photography_leftCol {

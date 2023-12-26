@@ -2,36 +2,31 @@
     background-color: #071117;
     color: #CCD5CB;
     display: flex;
-    align-items: center;
+    justify-content: space-around;
     flex-direction: row;
-    height: 90px;
+    height: 10vh;
     font-weight: 400;
     font-size: 12px;
+    text-align: center;
 }
 
 .bot_nav_bar_left_nav {
-    display: flex;
-    flex-direction: row;    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
     align-items: center;
-    justify-items: center;
 }
-
+    
 .bot_nav_bar_right_nav {
-    margin-left: auto;    
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
     align-items: center;
-    justify-items: center;
 }
 
 .bot_nav_bar_resume_download {
     background: #071117;
     border: 2px solid #343434;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-left: 300px;
     padding: 10px;
     cursor: pointer;
     text-decoration: none;
@@ -54,21 +49,13 @@
 .bot_nav_bar_email {
     background: #071117;
     border: 2px solid #343434;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     padding: 10px;
-    margin-left: 20px;
     font-size: 12px;
 }
 
 .bot_nav_bar_phone {
     background: #071117;
     border: 2px solid #343434;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: 20px;
     padding: 10px;
     font-size: 12px;
 }
@@ -77,11 +64,6 @@
     padding: 10px;
     background: #0F1B32;
     border: 2px solid #343434;
-    margin-left: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-right: 20px;
     color: #CCD5CB;
     cursor: pointer;
 
@@ -91,11 +73,6 @@
     padding: 10px;
     background: #0F1B32;
     border: 2px solid #343434;
-    margin-left: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-right: 20px;
     color: #CCD5CB;
     cursor: pointer;
 }
@@ -104,11 +81,6 @@
     padding: 10px;
     background: #0F1B32;
     border: 2px solid #343434;
-    margin-left: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-right: 300px;
     color: #CCD5CB;
     cursor: pointer;
 }
