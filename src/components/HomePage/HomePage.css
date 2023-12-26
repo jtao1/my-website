@@ -1,10 +1,8 @@
-.home_page {
-    background-color: #071117;
-    color: white;
+.HomePage {
     height: 80vh;
 }
 
-.home_page_projects_container {
+.HomePage__ProjectsContainer {
     display: flex;
     margin: 0% 10%;
     justify-content: space-around;
@@ -12,12 +10,11 @@
     position: relative;
 }
 
-.home_page_project_title {
-    text-align: center;
+.HomePage__ProjectTitle {
     font-size: 36px; 
 }
 
-.home_page_project {
+.HomePage__Project {
     position: relative;
     background: none;
     height: 250px;
@@ -27,42 +24,41 @@
     box-shadow: 0 0 0 1000px inset #0000005f, 0 0 45px 0 inset black;
     background-size: 100% 100%;    
     box-sizing: border-box;
-    text-align: center;
-    border: ridge;
-    border-width: 5px;
-    border-color: #686060;
-}
-
-.home_page_project:hover {
+    border: 5px ridge #686060;
     cursor: pointer;
-    transform: scale(1.1);
 }
 
-.home_page_project_name {
+.HomePage__Project:hover {transform: scale(1.1);}
+
+.HomePage__ProjectName {
     position: absolute;
     top: 15%;
     left: 50%;
     width: 80%;
     transform: translate(-50%, -50%);
-    font-size: 24px;
+    font-size: 24px;    
+    background-color: transparent;
 }
 
-.home_page_popup {
+.HomePage__Popup {
     position: fixed;
     z-index: 1;
     width: 100%;
     height: 95%;
     margin: 20px;
-    border: ridge;
-    background-color: #0b1a23;
-    text-align: center;
+    border: 10px ridge #686060;;
+    background-color: #0F1B32;
 }
 
-.home_page_description_title {
+.HomePage__DescriptionTitle {
     margin: 20px;
     font-size: 24px;
+    background-color: transparent;
 }
 
-.home_page_link:link {text-decoration: none;}
-.home_page_link:visited {color:#5252ff; text-decoration: none;}
-.home_page_link:hover {text-decoration: underline;}
+.HomePage__Description {
+    background-color: transparent;
+}
+
+.HomePage__Link:visited {color:#5252ff; text-decoration: none;}
+.HomePage__Link:hover {text-decoration: underline;}

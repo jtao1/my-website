@@ -1,0 +1,52 @@
+.BotNavBar {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    height: 10vh;
+    font-size: 12px;
+    
+}
+
+.BotNavBar__LeftNav {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+    align-items: center;
+}
+    
+.BotNavBar__RightNav {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+    align-items: center;
+}
+
+.BotNavBar__ResumeDownload {
+    background: #0F1B32;
+    border: 3px ridge #686060;
+    padding: 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.BotNavBar__DownloadText {
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.BotNavBar__UpdateText {
+    font-size: 9px;
+    color: #8C8C8C;
+}
+
+.BotNavBar__Item {
+    border: 3px ridge #686060;
+    padding: 10px;
+    background: #0F1B32;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.BotNavBar__Item:hover {
+    text-decoration: underline;
+}

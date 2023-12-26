@@ -1,0 +1,35 @@
+.TopNavBar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 10vh;
+    font-size: 11px;
+    background-color: #071117;
+    
+}
+
+.TopNavBar__Signature {
+    image-rendering: crisp-edges;
+    width: 150px;
+    height: 60px;
+}
+
+.TopNavBar__Home {
+    padding: 10px;
+    border: 3px ridge #686060;
+    background: #0F1B32;
+}
+
+.TopNavBar__Photography {
+    padding: 10px;
+    border: 3px ridge #686060;
+    background: #0F1B32;
+}
+
+.TopNavBar__Text {
+    cursor:pointer;
+}
+
+.TopNavBar__Text:hover {
+    text-decoration: underline;
+}

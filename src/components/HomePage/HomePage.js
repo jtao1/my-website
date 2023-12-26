@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
 import { useClickAway } from '@uidotdev/usehooks';
 import './HomePage.css';
-import defaultbg from './images/default-img.jpg';
-import stocks_chart from './images/stocks-chart.png';
-import ai_childrenstories from './images/aichildrenstories.png';
-import garage_sales_tracker from './images/garage-sales-tracker.png';
+import defaultbg from '../Images/default-img.jpg';
+import stocks_chart from '../Images/stocks-chart.png';
+import ai_childrenstories from '../Images/aichildrenstories.png';
+import garage_sales_tracker from '../Images/garage-sales-tracker.png';
+import website_pic from '../Images/website.png';
 
 export default function HomePage() {
     const [selectedProject, setSelectedProject] = useState(null);
@@ -45,32 +46,32 @@ export default function HomePage() {
         },
         {
             name: 'Personal Website',
-            image: defaultbg,
+            image: website_pic,
             description: 'Description for Personal Website project.',
             link: 'https://github.com/jtao1/my-website',
         },
     ];
 
     return (
-        <nav className='home_page'>
-            <h1 className='home_page_project_title'>Projects</h1>
-            <div className='home_page_projects_container'>
+        <nav className='HomePage'>
+            <h1 className='HomePage__ProjectTitle'>Projects</h1>
+            <div className='HomePage__ProjectsContainer'>
                 {projects.map((project) => (
                     <div
                         key={project.name}
-                        className='home_page_project'
+                        className='HomePage__Project'
                         onClick={() => openLink(project)}
                         style={{ backgroundImage: `url(${project.image})` }}
                     >
-                        <h2 className='home_page_project_name'>{project.name}</h2>
+                        <h2 className='HomePage__ProjectName'>{project.name}</h2>
                     </div>
                 ))}
 
                 {selectedProject && (
-                    <div className='home_page_popup' ref={ref}>
-                        <h2 className='home_page_description_title'>{selectedProject.name}</h2>
-                        <h3 >{selectedProject.description}</h3>
-                        <a className='home_page_link' href={selectedProject.link} target='_blank' rel='noopener noreferrer'>
+                    <div className='HomePage__Popup' ref={ref}>
+                        <h2 className='HomePage__DescriptionTitle'>{selectedProject.name}</h2>
+                        <h3 className='HomePage__Description'>{selectedProject.description}</h3>
+                        <a className='HomePage__Link' href={selectedProject.link} target='_blank' rel='noopener noreferrer'>
                             View on GitHub
                         </a>
                     </div>

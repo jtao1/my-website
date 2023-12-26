@@ -1,9 +1,9 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import TopNavBar from './components/TopNavBar'
-import HomePage from './HomePage/HomePage.js';
-import Photography from './Photography/Photography.js'
-import BotNavBar from './components/BotNavBar';
+import TopNavBar from './components/TopNavBar/TopNavBar.js'
+import HomePage from './components/HomePage/HomePage.js';
+import Photography from './components/Photography/Photography.js'
+import BotNavBar from './components/BotNavBar/BotNavBar.js';
 import './App.css';
 
 
