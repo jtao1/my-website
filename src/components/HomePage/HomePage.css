@@ -58,7 +58,12 @@
 
 .HomePage__Description {
     background-color: transparent;
+    margin: 10px;
 }
 
+.HomePage__Link {
+    background-color: transparent;
+    font-weight: bold;
+}
 .HomePage__Link:visited {color:#5252ff; text-decoration: none;}
 .HomePage__Link:hover {text-decoration: underline;}

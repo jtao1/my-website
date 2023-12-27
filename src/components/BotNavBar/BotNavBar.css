@@ -32,11 +32,15 @@
 .BotNavBar__DownloadText {
     font-size: 14px;
     text-decoration: none;
+    background: #0F1B32;
+
 }
 
 .BotNavBar__UpdateText {
     font-size: 9px;
     color: #8C8C8C;
+    background: #0F1B32;
+
 }
 
 .BotNavBar__Item {
