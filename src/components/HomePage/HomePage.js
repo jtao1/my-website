@@ -82,6 +82,7 @@ export default function HomePage() {
                         <a className='HomePage__Link' href={selectedProject.link} target='_blank' rel='noopener noreferrer'>
                             View on GitHub
                         </a>
+                        <div className='HomePage__PopupImage' style={{ backgroundImage: `url(${selectedProject.image})` }}></div>
                     </div>
                 )}
             </div>
